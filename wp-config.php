@@ -93,6 +93,10 @@ define( 'SCRIPT_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+/** Force correct site URLs for local dev directory */
+define( 'WP_HOME', 'http://localhost/flatsome_v01_dev' );
+define( 'WP_SITEURL', 'http://localhost/flatsome_v01_dev' );
+
 
 
 /* That's all, stop editing! Happy publishing. */
